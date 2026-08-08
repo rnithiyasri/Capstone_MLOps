@@ -29,7 +29,7 @@ Docker
    ↓
 GitHub Actions CI/CD
 ```
-#Machine Learning Models
+## Machine Learning Models
 
 
 Three classification models were trained and compared:
@@ -45,7 +45,7 @@ Logistic Regression	0.982
 
 Logistic Regression achieved the highest accuracy of 0.982 and was registered as the best-performing model.
 
-MLflow
+## MLflow
 
 MLflow is used for:
 
@@ -59,7 +59,8 @@ Model Name: BreastCancerModel
 Version: 2
 Model: Logistic Regression
 Accuracy: 0.982
-DVC
+
+## DVC
 
 DVC (Data Version Control) is used to track and version the dataset and ML pipeline.
 
@@ -72,7 +73,8 @@ Important DVC components include:
 .dvc/
 .dvcignore
 data/
-FastAPI Prediction API
+
+## FastAPI Prediction API
 
 A FastAPI application is used to provide predictions through a REST API.
 
@@ -96,7 +98,8 @@ Example response:
 {
   "prediction": 1
 }
-Docker
+
+## Docker
 
 The application is containerized using Docker.
 
@@ -155,7 +158,8 @@ Capstone_MLOps/
 ├── mlflow.db
 ├── .dvcignore
 └── README.md
-Technologies Used
+
+## Technologies Used
 Python
 Scikit-learn
 MLflow
