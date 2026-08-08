@@ -28,7 +28,9 @@ FastAPI Prediction API
 Docker
    ↓
 GitHub Actions CI/CD
-Machine Learning Models
+```
+#Machine Learning Models
+
 
 Three classification models were trained and compared:
 
